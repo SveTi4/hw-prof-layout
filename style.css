@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+header {
+    background: #222222;
+    padding: 18px 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-right {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
