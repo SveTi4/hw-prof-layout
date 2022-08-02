@@ -2,11 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-body {
-
-}
-
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -30,4 +25,32 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.main-screen {
+    background: #F1E4E6;
+}
+.main-screen-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.main-screen-image img {
+    display: block;
+}
+.main-screen h1 {
+    font-size: 32px;
+    padding-left: 16px;
+    margin-left: 63px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-left: #F16D7F 12px solid ;
+}
+#first-row {
+    font-size: 48px;
+    font-weight: 900;
+}
+.highlighting {
+    color: #F16D7F;
 }
