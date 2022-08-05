@@ -12,10 +12,14 @@ header {
     display: flex;
     align-items: center;
 }
-.nav {
+header nav, .container {
     display: flex;
     justify-content: space-between;
 }
+/* nav {
+    display: flex;
+    justify-content: space-between;
+} */
 .nav-left {
     width: 105px;
     display: flex;
