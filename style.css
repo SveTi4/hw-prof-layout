@@ -271,3 +271,48 @@ header .container {
     line-height: 17px;
     color: #FFFFFF
 }
+footer {
+    height: 79px;
+    background: #222224;
+}
+footer span {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-brands {
+    font-size: 16px;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+.fa-brands:hover {
+    color: #F16D7F;
+    border: 1px #F16D7F solid;
+}
+.fa-facebook-f {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fa-instagram {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+footer i:not(:last-of-type) {
+    margin-right: 7px;
+}
