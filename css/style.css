@@ -555,6 +555,7 @@ footer i:not(:last-of-type) {
     margin-top: 32px;
 }
 .properties {
+    width: 100%;
     border-top: 1px solid #EAEAEA;
     padding-top: 65px;
     padding-bottom: 48px;
