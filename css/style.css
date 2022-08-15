@@ -459,9 +459,34 @@ footer i:not(:last-of-type) {
     color: #636363;
     text-decoration: none;
 }
-  
-  /* Добавить цвет на наведении курсора мыши */
-  ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  }
+
+.slider {
+    width: auto;
+    background: #F7F7F7;
+    height: 777px;
+}
+.slider-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11px;
+    position: relative;
+}
+.arrow-box {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.arrow {
+    font-size: 21px;
+    padding: 12px 17px;
+    background: rgba(42, 42, 42, 0.15);
+    color: #000000;
+    border: 1px solid transparent;
+}
+.arrow:hover {
+    color: #F16D7F;
+}
