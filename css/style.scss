@@ -1,3 +1,6 @@
+$main-color: #F16D7F;
+$main-color2: #EF5B70;
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +47,7 @@ header .container {
     position: relative;
 }
 .nav-element:hover {
-    background: #F16D7F;
+    background: $main-color;
 }
 .nav-element:hover .menu-box {
     display: flex;
@@ -76,7 +79,7 @@ header .container {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #F16D7F;
+    color: $main-color;
 }
 .menu-section {
     width: 166px;
@@ -95,7 +98,7 @@ header .container {
     padding-bottom: 11px;
 }
 .menu-item:hover {
-    color: #F16D7F;
+    color: $main-color;
 }
 .main-screen {
     background: #F1E4E6;
@@ -116,7 +119,7 @@ header .container {
     margin-left: 63px;
     
     font-weight: 700;
-    border-left: #F16D7F 12px solid ;
+    border-left: $main-color 12px solid ;
 }
 #first-row {
     font-size: 48px;
@@ -124,7 +127,7 @@ header .container {
     font-weight: 900;
 }
 .highlighting {
-    color: #F16D7F;
+    color: $main-color;
 }
 .cards {
     display: flex;
@@ -207,7 +210,7 @@ header .container {
     padding: 10px 13px 8px 13px;
 }
 .add:hover {
-    box-shadow: 0 0 10px 0 #F16D7F;
+    box-shadow: 0 0 10px 0 $main-color;
 }
 .add-img {
     padding-right: 11px;
@@ -243,7 +246,7 @@ header .container {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F16D7F;
+    color: $main-color;
 }
 .all-product {
     font-weight: 400;
@@ -253,14 +256,14 @@ header .container {
     color: #fff;
 }
 .button {
-    background: #F16D7F;
+    background: $main-color;
     color: #fff;
     border: 1px solid transparent;
 }
 .button:hover {
     background: #FFFFFF;
-    color: #F16D7F;
-    border: 1px #F16D7F solid;
+    color: $main-color;
+    border: 1px $main-color solid;
 }
 .offer {
     background: #222224;
@@ -413,8 +416,8 @@ footer .container {
     box-sizing: border-box;
 }
 .fa-brands:hover {
-    color: #F16D7F;
-    border: 1px #F16D7F solid;
+    color: $main-color;
+    border: 1px $main-color solid;
 }
 .fa-facebook-f {
     padding-left: 10px;
@@ -430,7 +433,7 @@ footer i:not(:last-of-type) {
 
 .breadcrump-section {
     background: #F8F3F4;
-    color: #F16D7F;
+    color: $main-color;
     font-family: 'Lato',sans-serif;
     padding: 59px 0 60px 0;
 }
@@ -456,7 +459,7 @@ footer i:not(:last-of-type) {
 }
 .breadcrumb li:last-of-type {
     font-weight: 700;
-    color: #F16D7F;
+    color: $main-color;
 }
 .breadcrumb li:not(:first-of-type)::before {
     font-weight: 400;
@@ -498,7 +501,7 @@ footer i:not(:last-of-type) {
     border: 1px solid transparent;
 }
 .arrow:hover {
-    color: #F16D7F;
+    color: $main-color;
 }
 .product {
     
@@ -521,7 +524,7 @@ footer i:not(:last-of-type) {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #EF5B70;
+    color: $main-color2;
 }
 .product-description {
     display: flex;
@@ -534,7 +537,7 @@ footer i:not(:last-of-type) {
 .product-description hr {
     width: 63px;
     height: 3px;
-    background: #EF5B70;
+    background: $main-color2;
     border: none;
     margin: 12px 0;
 }
@@ -556,7 +559,7 @@ footer i:not(:last-of-type) {
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
-    color: #EF5B70;
+    color: $main-color2;
     margin-top: 32px;
 }
 .properties {
@@ -588,7 +591,7 @@ footer i:not(:last-of-type) {
     margin-bottom: 65px;
 }
 .add-to-cart:hover .fa-cart-shopping {
-    color: #EF5B70;
+    color: $main-color2;
 }
 .fa-cart-shopping {
     margin-right: 22px;
@@ -619,7 +622,7 @@ footer i:not(:last-of-type) {
             font-weight: 600;
             font-size: 14px;
             line-height: 17px;
-            color: #EF5B70;
+            color: $main-color2;
         }
     }
     .filter-main-summary {
@@ -649,13 +652,13 @@ footer i:not(:last-of-type) {
             margin-top: 18px;
         }
         &[open] .filter-mini-summary {
-            color: #EF5B70;
+            color: $main-color2;
         }
         .filter-mini-summary {
             font-weight: 400;
             line-height: 37px;
             padding-left: 11px;
-            border-left: 5px solid#EF5B70;
+            border-left: 5px solid$main-color2;
             border-bottom: 1px solid #EBEBEB;;
         }
         .filter-mini-box {
@@ -671,7 +674,7 @@ footer i:not(:last-of-type) {
                 color: #6F6E6E;
             }
             label:hover {
-                color: #EF5B70;
+                color: $main-color2;
             }
         }
         .filter-mini-box:last-of-type {
@@ -742,10 +745,10 @@ footer i:not(:last-of-type) {
         line-height: 19px;
     }
     a:hover {
-        color: #EF5B70;
+        color: $main-color2;
     }  
     .active a{
-        color: #EF5B70;
+        color: $main-color2;
     } 
     i {
         font-size: 14px;
