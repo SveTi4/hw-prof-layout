@@ -154,7 +154,6 @@ header .container {
     font-size: 24px;
 }
 .catalog {
-    
     margin: 96px 0;
 }
 .catalog .container {
@@ -238,6 +237,7 @@ header .container {
     font-size: 14px;
     line-height: 17px;
     color: #5D5D5D;
+    text-align: left;
 }
 .text-box span {
     font-weight: 400;
@@ -599,7 +599,7 @@ footer i:not(:last-of-type) {
     margin-top: 16px;
 }
 .filtAndSort {
-    
+    margin-top: 39px;
     form {
         display: flex;
         flex-direction: row;
@@ -722,4 +722,33 @@ footer i:not(:last-of-type) {
 }
 #priceFilter {
     width: 90px;
+}
+.full-catalog {
+    margin-top: 30px;
+}
+.pagination {
+    width: 282px;
+    border: 1px solid #EBEBEB;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8px;
+    a {
+        color: #C4C4C4;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    a:hover {
+        color: #EF5B70;
+    }  
+    .active a{
+        color: #EF5B70;
+    } 
+    i {
+        font-size: 14px;
+        color: #000000;
+    }
 }

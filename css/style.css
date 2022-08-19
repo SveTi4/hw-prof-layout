@@ -351,6 +351,7 @@ header .container {
   font-size: 14px;
   line-height: 17px;
   color: #5D5D5D;
+  text-align: left;
 }
 
 .text-box span {
@@ -853,6 +854,10 @@ footer i:not(:last-of-type) {
   margin-top: 16px;
 }
 
+.filtAndSort {
+  margin-top: 39px;
+}
+
 .filtAndSort form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1013,5 +1018,48 @@ footer i:not(:last-of-type) {
 
 #priceFilter {
   width: 90px;
+}
+
+.full-catalog {
+  margin-top: 30px;
+}
+
+.pagination {
+  width: 282px;
+  border: 1px solid #EBEBEB;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 8px;
+}
+
+.pagination a {
+  color: #C4C4C4;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pagination a:hover {
+  color: #EF5B70;
+}
+
+.pagination .active a {
+  color: #EF5B70;
+}
+
+.pagination i {
+  font-size: 14px;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
