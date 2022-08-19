@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
 a {
   text-decoration: none;
 }
@@ -102,7 +107,6 @@ header .container {
 
 .menu-name {
   padding-bottom: 24px;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -125,7 +129,6 @@ header .container {
 }
 
 .menu-item {
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -166,7 +169,6 @@ header .container {
   font-size: 32px;
   padding-left: 16px;
   margin-left: 63px;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   border-left: #F16D7F 12px solid;
 }
@@ -213,7 +215,6 @@ header .container {
   position: absolute;
   display: block;
   text-align: center;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #FFF;
@@ -225,7 +226,6 @@ header .container {
 }
 
 .catalog {
-  font-family: 'Lato', sans-serif;
   margin: 96px 0;
 }
 
@@ -410,7 +410,6 @@ header .container {
           align-items: center;
   text-align: center;
   width: 360px;
-  font-family: 'Lato', sans-serif;
 }
 
 .description h2 {
@@ -462,7 +461,6 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  font-family: 'Lato', sans-serif;
   height: 448px;
   padding: 86px 100px 126px 0;
   -webkit-box-sizing: border-box;
@@ -501,7 +499,6 @@ header .container {
 
 .subscribe-heading {
   margin-bottom: 32px;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 167.2%;
@@ -525,7 +522,6 @@ header .container {
   height: 49px;
   width: 256px;
   padding-left: 22px;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -537,7 +533,6 @@ header .container {
 }
 
 .subscribe_form button {
-  font-family: 'Lato', sans-serif;
   border-radius: 0 16px 16px 0;
   height: 49px;
   width: 100px;
@@ -554,7 +549,6 @@ footer {
 
 footer span {
   display: block;
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -718,7 +712,6 @@ footer i:not(:last-of-type) {
 }
 
 .product {
-  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 
