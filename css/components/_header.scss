@@ -1,0 +1,81 @@
+header {
+    background: #222222;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+}
+.logo-wrapper {
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-element {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 0 15px;
+    position: relative;
+}
+.nav-element:hover {
+    background: $main-color;
+}
+.nav-element:hover .menu-box {
+    display: flex;
+}
+.menu-box {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 75px;
+    display: none;
+    padding: 37px 34px;
+    background: #fff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    flex-direction: column;
+}
+.last {
+    right: 0;
+    left: auto;
+}
+.menu-name {
+    padding-bottom: 24px;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.menu-heading {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $main-color;
+}
+.menu-section {
+    width: 166px;
+}
+.menu-section ul {
+    padding: 12px 0 21px 20px;
+}
+.menu-item {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+.menu-item:not(:last-of-type) {
+    padding-bottom: 11px;
+}
+.menu-item:hover {
+    color: $main-color;
+}

@@ -1,0 +1,41 @@
+.breadcrump-section {
+    background: #F8F3F4;
+    color: $main-color;
+    font-family: 'Lato',sans-serif;
+    padding: 59px 0 60px 0;
+}
+.breadcrump-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bc-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+.breadcrumb li {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+.breadcrumb li:last-of-type {
+    font-weight: 700;
+    color: $main-color;
+}
+.breadcrumb li:not(:first-of-type)::before {
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 4px;
+    color: black;
+    content: "/\00a0";
+}
+.breadcrumb li a {
+    color: #636363;
+    text-decoration: none;
+}
