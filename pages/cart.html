@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Product</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-left">
+                <div class="logo-wrapper">
+                    <a href="../index.html" class="logo"><img src="../img/logo.svg" alt="logo"></a>
+                    <a href="#" class="search"><img src="../img/search.svg" alt="search"></a>
+                </div>
+            </nav>
+            <nav class="nav-right">
+                <div class="nav-element">
+                    <img src="../img/menu.svg" alt="menu">
+                    <div class="menu-box">
+                        <p class="menu-name">MENU</p>
+                        <div class="menu-section">
+                            <p class="menu-heading">MAN</p>
+                            <ul>
+                                <li class="menu-item">Accessories</li>
+                                <li class="menu-item">Bags</li>
+                                <li class="menu-item">Denim</li>
+                                <li class="menu-item">T-Shirts</li>
+                            </ul>
+                        </div>
+                        <div class="menu-section">
+                            <p class="menu-heading">WOMAN</p>
+                            <ul>
+                                <li class="menu-item">Accessories</li>
+                                <li class="menu-item">Jackets & Coats</li>
+                                <li class="menu-item">Polos</li>
+                                <li class="menu-item">T-Shirts</li>
+                                <li class="menu-item">Shirts</li>
+                            </ul>
+                        </div>
+                        <div class="menu-section">
+                            <p class="menu-heading">MAN</p>
+                            <ul>
+                                <li class="menu-item">Accessories</li>
+                                <li class="menu-item">Jackets & Coats</li>
+                                <li class="menu-item">Polos</li>
+                                <li class="menu-item">T-Shirts</li>
+                                <li class="menu-item">Shirts</li>
+                                <li class="menu-item">Bags</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-element">
+                    <img src="../img/profile.svg" alt="profile">
+                    
+                </div>
+                <div class="nav-element">
+                    <img src="../img/cart.svg" alt="cart">
+                    
+                </div>
+            </nav>
+        </div>
+        <div class="breadcrump-section">
+            <div class="container">
+                <h2 class="bc-heading">
+                    SHOPPING CART
+                </h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container cart">
+            <section class="cart-content">
+                <div class="cart-list">
+                    <div class="cart-item cart-list__cart-item">
+                        <img class="cart-item__img" src="../img/catalog1.jpg" alt="product">
+                        <div class="item-info cart-item__info">
+                            <h3 class="heading item-info__heading">
+                                MANGO  PEOPLE  <br>T-SHIRT
+                            </h3>
+                            <ul class="parametrs item-info__parametrs">
+                                <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
+                                <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
+                                <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
+                                <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
+                            </ul>
+                        </div>
+                        <div class="delete-x cart-item__delete delete-x_hover">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                    </div>
+                    <div class="cart-item cart-list__cart-item">
+                        <img class="cart-item__img" src="../img/catalog1.jpg" alt="product">
+                        <div class="item-info cart-item__info">
+                            <h3 class="heading item-info__heading">
+                                MANGO  PEOPLE  <br>T-SHIRT
+                            </h3>
+                            <ul class="parametrs item-info__parametrs">
+                                <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
+                                <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
+                                <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
+                                <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
+                            </ul>
+                        </div>
+                        <div class="delete-x cart-item__delete delete-x_hover">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-btns cart__btns">
+                    <a class="cart-btn cart-button_hover cart-btn-input_theme" href="#">
+                        CLEAR SHOPPING CART
+                    </a>
+                    <a class="cart-btn cart-btn_hover cart-btn-input_theme" href="#">
+                        CONTINUE SHOPPING
+                    </a>
+                </div>
+            </section>
+            <section class="adress-and-buy">
+                <form action="#" class="adress adress-and-buy__adress">
+                    <h2 class="adress-h2 adress__h2">SHIPPING ADRESS</h2>
+                    <input type="text" placeholder="Country" class="adress-country adress-input adress__input cart-btn-input_theme"><br>
+                    <input type="text" placeholder="State" class="adress-state adress-input adress__input cart-btn-input_theme"><br>
+                    <input type="number" placeholder="Postcode / Zip" class="adress-postcode adress-input adress__input cart-btn-input_theme" ><br>
+                    <input type="submit" value="GET A QUOTE" class="adress-submit adress__submit cart-btn_hover cart-btn-input_theme"><br>
+                </form>
+                <div class="buy adress-and-buy__buy">
+                    <div class="prices buy__prices">    
+                        <p class="subtotal prices__subtotal">SUB TOTAL <span class="subtotal__value">$900</span></p>
+                        <p class="grandtotal prices__grandtotal">GRAND TOTAL <span class="grandtotal__value">$900</span></p>
+                    </div>
+                    <a href="#" class="buy-submit buy__submit button">
+                        PROCEED TO CHECKOUT
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <section class="subscribe pages">
+        <div class="container subscribe-box">
+            <figure>
+                <div class="subscribe-img"></div>
+                <p class="comment">
+                    “Vestibulum quis porttitor dui! Quisque viverra 
+                    nunc mi, <span class="italic">a pulvinar purus condimentum</span>“
+                </p>
+            </figure>
+            <form class="subscribe_form" action="#" >
+                <h2 class="subscribe-heading">SUBSCRIBE<br><span>FOR OUR NEWLETTER AND PROMOTION</span></h2>
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <button class="button" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <span>© 2021  Brand  All Rights Reserved.</span>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/038955ae66.js" crossorigin="anonymous"></script>
+</body>
+</html>
