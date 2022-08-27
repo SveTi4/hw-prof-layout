@@ -22,10 +22,12 @@ li {
     list-style-type: none;
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
-
+.content {
+    box-sizing: border-box;
+}
 @import "components/header";
 
 .main-screen {
@@ -468,6 +470,7 @@ li {
         box-sizing: border-box;
         left: -7px;
         top: 25px;
+        z-index: 5;
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -703,10 +706,11 @@ li {
     justify-content: space-between;
     width: 100%;
     &__reg-form {
-        max-width: 360px;
+        width: 360px;
     }
 }
 .reg-form {
+    margin-right: 4%;
     display: flex;
     flex-direction: column;
     &__reg-heading {
@@ -778,7 +782,7 @@ li {
     }
 }
 .loyalty-perks {
-    max-width: 652px;
+    max-width: 659px;
     &__loyalty-heading {
         margin-bottom: 22px;
     }
@@ -797,3 +801,4 @@ li {
     @include text(24px, 29px, #000000);
     font-weight: 300;
 }
+@import "media";

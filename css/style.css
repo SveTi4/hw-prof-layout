@@ -17,15 +17,20 @@ li {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
+}
+
+.content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
   background: #222222;
 }
 
-header .container {
+header .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +54,10 @@ header .container {
   display: flex;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 .logo-wrapper {
   width: 105px;
   display: -webkit-box;
@@ -69,7 +78,7 @@ header .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 75px;
+  min-height: 75px;
   padding: 0 15px;
   position: relative;
 }
@@ -441,17 +450,14 @@ header .container {
 }
 
 .subscribe {
-  background-image: url("img/subscribe.jpg");
-  background-position: center;
+  background-image: url("../img/subscribe.jpg");
+  background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-clip: content-box;
 }
 
-.subscribe.pages {
-  background-image: url("../img/subscribe.jpg");
-}
-
-.subscribe-box {
+.subscribe-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,13 +468,12 @@ header .container {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  height: 448px;
-  padding: 86px 100px 126px 0;
+  padding: 86px 100px 156px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.subscribe-box figure {
+.subscribe-content figure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -521,7 +526,7 @@ header .container {
 .subscribe_form input {
   background: #E1E1E1;
   height: 49px;
-  width: 256px;
+  width: 60%;
   padding-left: 22px;
   font-weight: 400;
   font-size: 14px;
@@ -544,7 +549,6 @@ header .container {
 }
 
 footer {
-  height: 79px;
   background: #222224;
 }
 
@@ -556,7 +560,7 @@ footer span {
   color: #FBFBFB;
 }
 
-footer .container {
+.footer-cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,7 +570,8 @@ footer .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .social {
@@ -617,7 +622,7 @@ footer i:not(:last-of-type) {
   padding: 59px 0 60px 0;
 }
 
-.breadcrump-section .container {
+.bc-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -984,6 +989,7 @@ footer i:not(:last-of-type) {
           box-sizing: border-box;
   left: -7px;
   top: 25px;
+  z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1340,10 +1346,11 @@ footer i:not(:last-of-type) {
 }
 
 .reg-cont__reg-form {
-  max-width: 360px;
+  width: 360px;
 }
 
 .reg-form {
+  margin-right: 4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1475,7 +1482,7 @@ footer i:not(:last-of-type) {
 }
 
 .loyalty-perks {
-  max-width: 652px;
+  max-width: 659px;
 }
 
 .loyalty-perks__loyalty-heading {
@@ -1500,5 +1507,96 @@ footer i:not(:last-of-type) {
   line-height: 29px;
   color: #000000;
   font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) {
+  .reg-cont {
+    padding-top: 40px;
+    padding-bottom: 96px;
+  }
+  .content {
+    padding-left: 2.3%;
+    padding-right: 2.3%;
+  }
+  .loyalty-perks {
+    width: 50%;
+  }
+  .subscribe-content {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  header .content {
+    padding: 0 4.4%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .loyalty_text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .reg-form {
+    width: 48%;
+  }
+  .loyalty-perks {
+    width: 46%;
+  }
+  .subscribe-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: 7% 2% 18.3% 2%;
+  }
+  .subscribe_form {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 7%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .reg-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reg-form {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .loyalty-perks {
+    width: 100%;
+  }
+  .footer-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-top: 43px;
+  }
+  .subscribe_form {
+    width: 100%;
+  }
+  .social {
+    margin-bottom: 25px;
+  }
+  .bc-content {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
