@@ -14,69 +14,76 @@
 <body>
     <header>
         <div class="container">
-            <nav class="nav-left">
-                <div class="logo-wrapper">
-                    <a href="../index.html" class="logo"><img src="../img/logo.svg" alt="logo"></a>
-                    <a href="#" class="search"><img src="../img/search.svg" alt="search"></a>
-                </div>
-            </nav>
-            <nav class="nav-right">
-                <div class="nav-element">
-                    <img src="../img/menu.svg" alt="menu">
-                    <div class="menu-box">
-                        <p class="menu-name">MENU</p>
-                        <div class="menu-section">
-                            <p class="menu-heading">MAN</p>
-                            <ul>
-                                <li class="menu-item">Accessories</li>
-                                <li class="menu-item">Bags</li>
-                                <li class="menu-item">Denim</li>
-                                <li class="menu-item">T-Shirts</li>
-                            </ul>
-                        </div>
-                        <div class="menu-section">
-                            <p class="menu-heading">WOMAN</p>
-                            <ul>
-                                <li class="menu-item">Accessories</li>
-                                <li class="menu-item">Jackets & Coats</li>
-                                <li class="menu-item">Polos</li>
-                                <li class="menu-item">T-Shirts</li>
-                                <li class="menu-item">Shirts</li>
-                            </ul>
-                        </div>
-                        <div class="menu-section">
-                            <p class="menu-heading">MAN</p>
-                            <ul>
-                                <li class="menu-item">Accessories</li>
-                                <li class="menu-item">Jackets & Coats</li>
-                                <li class="menu-item">Polos</li>
-                                <li class="menu-item">T-Shirts</li>
-                                <li class="menu-item">Shirts</li>
-                                <li class="menu-item">Bags</li>
-                            </ul>
+            <div class="content">
+                <nav class="nav-left">
+                    <div class="logo-wrapper">
+                        <a href="../index.html" class="logo"><img src="../img/logo.svg" alt="logo"></a>
+                        <a href="#" class="search"><img src="../img/search.svg" alt="search"></a>
+                    </div>
+                </nav>
+                <nav class="nav-right">
+                    <div class="nav-element">
+                        <img src="../img/menu.svg" alt="menu">
+                        <div class="menu-box">
+                            <p class="menu-name">MENU</p>
+                            <div class="menu-section">
+                                <p class="menu-heading">MAN</p>
+                                <ul>
+                                    <li class="menu-item">Accessories</li>
+                                    <li class="menu-item">Bags</li>
+                                    <li class="menu-item">Denim</li>
+                                    <li class="menu-item">T-Shirts</li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <p class="menu-heading">WOMAN</p>
+                                <ul>
+                                    <li class="menu-item">Accessories</li>
+                                    <li class="menu-item">Jackets & Coats</li>
+                                    <li class="menu-item">Polos</li>
+                                    <li class="menu-item">T-Shirts</li>
+                                    <li class="menu-item">Shirts</li>
+                                </ul>
+                            </div>
+                            <div class="menu-section">
+                                <p class="menu-heading">MAN</p>
+                                <ul>
+                                    <li class="menu-item">Accessories</li>
+                                    <li class="menu-item">Jackets & Coats</li>
+                                    <li class="menu-item">Polos</li>
+                                    <li class="menu-item">T-Shirts</li>
+                                    <li class="menu-item">Shirts</li>
+                                    <li class="menu-item">Bags</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="nav-element">
-                    <img src="../img/profile.svg" alt="profile">
-                    
-                </div>
-                <div class="nav-element">
-                    <img src="../img/cart.svg" alt="cart">
-                    
-                </div>
-            </nav>
+                    <a href="../pages/reg.html" class="reg-link nav-element">
+                        <img src="../img/profile.svg" alt="profile">
+                    </a>
+                    <a href="../pages/cart.html" class="reg-link nav-element">
+                        <img src="../img/cart.svg" alt="cart">
+                    </a>
+                </nav>
+                <nav class="nav-right nav-mobile">
+                    <img src="../img/menu.svg" alt="menu">
+
+                </nav>
+            </div>
+        </div>
         </div>
         <div class="breadcrump-section">
             <div class="container">
-                <h2 class="bc-heading">
-                    NEW ARRIVALS
-                </h2>
-                <ul class="breadcrumb">
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="#">MEN</a></li>
-                    <li>NEW ARRIVALS </li>
-                  </ul>
+                <div class="content bc-content">
+                    <h2 class="bc-heading">
+                        NEW ARRIVALS
+                    </h2>
+                    <ul class="breadcrumb">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li>NEW ARRIVALS </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -360,30 +367,34 @@
              </div>
         </div>
     </section>
-    <section class="subscribe pages">
-        <div class="container subscribe-box">
-            <figure>
-                <div class="subscribe-img"></div>
-                <p class="comment">
-                    “Vestibulum quis porttitor dui! Quisque viverra 
-                    nunc mi, <span class="italic">a pulvinar purus condimentum</span>“
-                </p>
-            </figure>
-            <form class="subscribe_form" action="#" >
-                <h2 class="subscribe-heading">SUBSCRIBE<br><span>FOR OUR NEWLETTER AND PROMOTION</span></h2>
-                <input type="email" name="email" placeholder="Enter Your Email">
-                <button class="button" type="submit">Subscribe</button>
-            </form>
+    <section class="subscribe">
+        <div class="container">
+            <div class="content subscribe-content">
+                <figure>
+                    <div class="subscribe-img"></div>
+                    <p class="comment">
+                        “Vestibulum quis porttitor dui! Quisque viverra 
+                        nunc mi, <span class="italic">a pulvinar purus condimentum</span>“
+                    </p>
+                </figure>
+                <form class="subscribe_form" action="#" >
+                    <h2 class="subscribe-heading">SUBSCRIBE<br><span>FOR OUR NEWLETTER AND PROMOTION</span></h2>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                    <button class="button" type="submit">Subscribe</button>
+                </form>
+            </div>
         </div>
     </section>
     <footer>
         <div class="container">
-            <span>© 2021  Brand  All Rights Reserved.</span>
-            <div class="social">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-pinterest"></i>
-                <i class="fa-brands fa-twitter"></i>
+            <div class="content footer-cont">
+                <span>© 2021  Brand  All Rights Reserved.</span>
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
             </div>
         </div>
     </footer>

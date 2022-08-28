@@ -1,0 +1,74 @@
+@media screen and (max-width: 1024px) {
+    .reg-cont {
+        padding-top: 40px;
+        padding-bottom: 96px;
+    }
+    .content {
+        padding-left: 2.3%;
+        padding-right: 2.3%;
+    }
+    .loyalty-perks {
+        width: 50%;
+    }
+    .subscribe-content {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    header .content {
+        padding: 0 4.4%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .loyalty_text {
+        @include text(16px, 19px, #000000);
+    }
+    .reg-form {
+        width: 48%;
+    }
+    .loyalty-perks {
+        width: 46%;
+    }
+    .subscribe-content {
+        flex-direction: column;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding: 7% 2% 18.3% 2%;
+    }
+    .subscribe_form {
+        align-self: center;
+        margin-top: 7%;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .reg-cont {
+        flex-direction: column;
+    }
+    .reg-form {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .loyalty-perks {
+        width: 100%;
+    }
+    .footer-cont {
+        flex-direction: column-reverse;
+        padding-top: 43px;
+    }
+    .subscribe_form {
+        width: 100%;
+    }
+    .social {
+        margin-bottom: 25px;
+    }
+    .bc-content {
+        justify-content: center !important;
+    }
+    .nav-right {
+        display: none;
+    }
+    .nav-mobile {
+        display: block;
+    }
+}

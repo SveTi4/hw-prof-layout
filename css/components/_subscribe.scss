@@ -1,23 +1,20 @@
-.subscribe {
-    background-image: url('img/subscribe.jpg');
-    background-position: center;
+
+.subscribe{
+    background-image: url('../img/subscribe.jpg');
+    background-size: cover;
+    background-position:bottom;
     background-repeat: no-repeat;
     background-clip: content-box;
 }
-.subscribe.pages{
-    background-image: url('../img/subscribe.jpg');
-}
-.subscribe-box {
+.subscribe-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    
-    height: 448px;
-    padding: 86px 100px 126px 0;
+    padding: 86px 100px 156px 0;
     box-sizing: border-box;
 }
-.subscribe-box figure {
+.subscribe-content figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +54,7 @@
 .subscribe_form input {
     background: #E1E1E1;
     height: 49px;
-    width: 256px;
+    width: 60%;
     padding-left: 22px;
     
     font-weight: 400;

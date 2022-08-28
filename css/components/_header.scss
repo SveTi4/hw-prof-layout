@@ -1,7 +1,7 @@
 header {
     background: #222222;
 }
-header .container {
+header .content {
     display: flex;
     justify-content: space-between;
 }
@@ -12,6 +12,9 @@ header .container {
 .nav-right {
     display: flex;
 }
+.nav-mobile {
+    display: none;
+}
 .logo-wrapper {
     width: 105px;
     display: flex;
@@ -21,7 +24,7 @@ header .container {
 .nav-element {
     display: flex;
     align-items: center;
-    height: 75px;
+    min-height: 75px;
     padding: 0 15px;
     position: relative;
 }

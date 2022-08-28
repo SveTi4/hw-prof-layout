@@ -1,20 +1,19 @@
 footer {
-    height: 79px;
     background: #222224;
 }
 footer span {
     display: block;
-    
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
 }
-footer .container {
+.footer-cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .social {
     display: flex;
