@@ -145,8 +145,14 @@ li {
 .add-img {
     padding-right: 11px;
 }
+.catalog-item .item-img {
+    transition: all 0.6s;
+}
 .catalog-item:hover .item-img {
     filter: brightness(30%);
+}
+.catalog-item .add {
+    transition: all 0.3s;
 }
 .catalog-item:hover .add {
     display: flex;
@@ -189,6 +195,7 @@ li {
     background: $main-color;
     color: #fff;
     border: 1px solid transparent;
+    transition: all 0.6s;
 }
 .button:hover {
     background: #FFFFFF;
@@ -556,6 +563,14 @@ li {
     }
     &__info {
         width: 100%;
+    }
+}
+.item-link {
+    display: block;
+    width: 262px;
+    height: 100%;
+    &__img {
+        height: 100%;
     }
 }
 .item-info {

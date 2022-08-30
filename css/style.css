@@ -81,6 +81,8 @@ header .content {
   min-height: 75px;
   padding: 0 15px;
   position: relative;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
 }
 
 .nav-element:hover {
@@ -327,9 +329,19 @@ header .content {
   padding-right: 11px;
 }
 
+.catalog-item .item-img {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
 .catalog-item:hover .item-img {
   -webkit-filter: brightness(30%);
           filter: brightness(30%);
+}
+
+.catalog-item .add {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .catalog-item:hover .add {
@@ -382,6 +394,8 @@ header .content {
   background: #F16D7F;
   color: #fff;
   border: 1px solid transparent;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .button:hover {
@@ -594,6 +608,8 @@ footer span {
   border: 1px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: color 0.4s, border 0.4s;
+  transition: color 0.4s, border 0.4s;
 }
 
 .fa-brands:hover {
@@ -1119,6 +1135,16 @@ footer i:not(:last-of-type) {
 
 .cart-item__info {
   width: 100%;
+}
+
+.item-link {
+  display: block;
+  width: 262px;
+  height: 100%;
+}
+
+.item-link__img {
+  height: 100%;
 }
 
 .item-info {

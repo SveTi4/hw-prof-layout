@@ -26,6 +26,7 @@ footer span {
     background: #fff;
     border: 1px solid transparent;
     box-sizing: border-box;
+    transition: color 0.4s, border 0.4s;
 }
 .fa-brands:hover {
     color: $main-color;
