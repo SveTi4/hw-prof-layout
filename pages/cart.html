@@ -82,75 +82,77 @@
         </div>
     </header>
     <main>
-        <div class="container cart">
-            <section class="cart-content">
-                <div class="cart-list">
-                    <div class="cart-item cart-list__cart-item">
-                        <a href="product.html" class="item-link cart-item__item-link">
-                            <img class="item-link__img" src="../img/catalog1.jpg" alt="product">
+        <div class="container">
+            <div class="content cart">
+                <section class="cart-content">
+                    <div class="cart-list">
+                        <div class="cart-item cart-list__cart-item">
+                            <a href="product.html" class="item-link cart-item__item-link">
+                                <img class="item-link__img" src="../img/catalog1.jpg" alt="product">
+                            </a>
+                            <div class="item-info cart-item__info">
+                                <h3 class="heading item-info__heading">
+                                    MANGO  PEOPLE  <br>T-SHIRT
+                                </h3>
+                                <ul class="parametrs item-info__parametrs">
+                                    <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
+                                    <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
+                                    <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
+                                    <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
+                                </ul>
+                            </div>
+                            <div class="delete-x cart-item__delete delete-x_hover">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+                        <div class="cart-item cart-list__cart-item">
+                            <a href="product.html" class="item-link cart-item__item-link">
+                                <img class="item-link__img" src="../img/catalog1.jpg" alt="product">
+                            </a>
+                            <div class="item-info cart-item__info">
+                                <h3 class="heading item-info__heading">
+                                    MANGO  PEOPLE  <br>T-SHIRT
+                                </h3>
+                                <ul class="parametrs item-info__parametrs">
+                                    <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
+                                    <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
+                                    <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
+                                    <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
+                                </ul>
+                            </div>
+                            <div class="delete-x cart-item__delete delete-x_hover">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-btns cart__btns">
+                        <a class="cart-btn cart-btn_hover cart-btn-input_theme" href="#">
+                            CLEAR SHOPPING CART
                         </a>
-                        <div class="item-info cart-item__info">
-                            <h3 class="heading item-info__heading">
-                                MANGO  PEOPLE  <br>T-SHIRT
-                            </h3>
-                            <ul class="parametrs item-info__parametrs">
-                                <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
-                                <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
-                                <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
-                                <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
-                            </ul>
-                        </div>
-                        <div class="delete-x cart-item__delete delete-x_hover">
-                            <i class="fa-solid fa-x"></i>
-                        </div>
-                    </div>
-                    <div class="cart-item cart-list__cart-item">
-                        <a href="product.html" class="item-link cart-item__item-link">
-                            <img class="item-link__img" src="../img/catalog1.jpg" alt="product">
+                        <a class="cart-btn cart-btn_hover cart-btn-input_theme" href="#">
+                            CONTINUE SHOPPING
                         </a>
-                        <div class="item-info cart-item__info">
-                            <h3 class="heading item-info__heading">
-                                MANGO  PEOPLE  <br>T-SHIRT
-                            </h3>
-                            <ul class="parametrs item-info__parametrs">
-                                <li class="param parametrs__param cart_theme">Price: <span class="param-price param__price">$300</span></li>
-                                <li class="param parametrs__param cart_theme">Color: <span class="param-color param__color">Red</span></li>
-                                <li class="param parametrs__param cart_theme">Size: <span class="param-size param__size">Xl</span></li>
-                                <li class="param parametrs__param cart_theme">Quantity:	<input class="param-quantity param__quantity" type="text" min="1" placeholder="1"></li>
-                            </ul>
-                        </div>
-                        <div class="delete-x cart-item__delete delete-x_hover">
-                            <i class="fa-solid fa-x"></i>
-                        </div>
                     </div>
-                </div>
-                <div class="cart-btns cart__btns">
-                    <a class="cart-btn cart-btn_hover cart-btn-input_theme" href="#">
-                        CLEAR SHOPPING CART
-                    </a>
-                    <a class="cart-btn cart-btn_hover cart-btn-input_theme" href="#">
-                        CONTINUE SHOPPING
-                    </a>
-                </div>
-            </section>
-            <section class="adress-and-buy">
-                <form action="#" class="adress adress-and-buy__adress">
-                    <h2 class="adress-h2 adress__h2">SHIPPING ADRESS</h2>
-                    <input type="text" placeholder="Country" class="adress-country adress-input adress__input cart-btn-input_theme"><br>
-                    <input type="text" placeholder="State" class="adress-state adress-input adress__input cart-btn-input_theme"><br>
-                    <input type="number" placeholder="Postcode / Zip" class="adress-postcode adress-input adress__input cart-btn-input_theme" ><br>
-                    <input type="submit" value="GET A QUOTE" class="adress-submit adress__submit cart-btn_hover cart-btn-input_theme"><br>
-                </form>
-                <div class="buy adress-and-buy__buy">
-                    <div class="prices buy__prices">    
-                        <p class="subtotal prices__subtotal">SUB TOTAL <span class="subtotal__value">$900</span></p>
-                        <p class="grandtotal prices__grandtotal">GRAND TOTAL <span class="grandtotal__value">$900</span></p>
+                </section>
+                <section class="adress-and-buy">
+                    <form action="#" class="adress adress-and-buy__adress">
+                        <h2 class="adress-h2 adress__h2">SHIPPING ADRESS</h2>
+                        <input type="text" placeholder="Country" class="adress-country adress-input adress__input cart-btn-input_theme"><br>
+                        <input type="text" placeholder="State" class="adress-state adress-input adress__input cart-btn-input_theme"><br>
+                        <input type="number" placeholder="Postcode / Zip" class="adress-postcode adress-input adress__input cart-btn-input_theme" ><br>
+                        <input type="submit" value="GET A QUOTE" class="adress-submit adress__submit cart-btn_hover cart-btn-input_theme"><br>
+                    </form>
+                    <div class="buy adress-and-buy__buy">
+                        <div class="prices buy__prices">    
+                            <p class="subtotal prices__subtotal">SUB TOTAL <span class="subtotal__value">$900</span></p>
+                            <p class="grandtotal prices__grandtotal">GRAND TOTAL <span class="grandtotal__value">$900</span></p>
+                        </div>
+                        <a href="#" class="buy-submit buy__submit button">
+                            PROCEED TO CHECKOUT
+                        </a>
                     </div>
-                    <a href="#" class="buy-submit buy__submit button">
-                        PROCEED TO CHECKOUT
-                    </a>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </main>
     <section class="subscribe">
