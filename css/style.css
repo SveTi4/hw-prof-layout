@@ -1669,6 +1669,12 @@ footer i:not(:last-of-type) {
   .subscribe_form {
     width: 100%;
   }
+  .subscribe_form input {
+    max-width: 50%;
+  }
+  .subscribe figure {
+    width: 100%;
+  }
   .social {
     margin-bottom: 25px;
   }
