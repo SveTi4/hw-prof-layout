@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1160px) {
     .reg-cont {
         padding-top: 40px;
         padding-bottom: 96px;
@@ -16,6 +16,12 @@
     }
     header .content {
         padding: 0 4.4%;
+    }
+    .cart-content {
+        width: 68%;
+    }
+    .adress-and-buy {
+        width: 30%;
     }
 }
 
@@ -40,6 +46,30 @@
         margin-top: 7%;
         width: 70%;
     }
+    .cart {
+        flex-direction: column;
+        &__btns {
+            margin: 62px auto 65px auto;
+        }
+    }
+    .cart-btns {
+        justify-content: space-around;
+    }
+    .cart-content {
+        width: 100%;
+    }
+    .adress-and-buy {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        &__adress, &__buy {
+            width: 48.5%;
+        }
+    }
+    .item-info {
+        padding-right: 8%;
+    }
+    
 }
 @media screen and (max-width: 500px) {
     .reg-cont {
@@ -59,6 +89,12 @@
     .subscribe_form {
         width: 100%;
     }
+    .subscribe_form input {
+        max-width: 50%;
+    }
+    .subscribe figure {
+        width: 100%;
+    }
     .social {
         margin-bottom: 25px;
     }
@@ -69,6 +105,54 @@
         display: none;
     }
     .nav-mobile {
-        display: block;
+        display: flex;
+        padding: 5% 0;
     }
+    .cart {
+        padding-top: 39px;
+        padding-bottom: 96px;
+    }
+    .cart-list__cart-item {
+        height: 188px;
+        margin-bottom: 30px;
+    }
+    .item-info {
+        padding: 13px 20px 13px 17px;
+        &__heading {
+            margin-bottom: 25px;
+        }
+    }
+    .parametrs__param {
+        margin-bottom: 4px;
+    }
+    .cart-item__delete {
+        top: 17px;
+        right: 12px;
+    }
+    .delete-x {
+        font-size: 11px;
+    }
+    .heading {
+        @include text(16px, 19px, #222222);
+    }
+    .param {
+        @include text(14px, 17px, #575757);
+    }
+    .cart-btns {
+        margin: 0;
+    }
+    .cart-btn {
+        @include text(12px, 32px, #000000);
+        width: 48%;
+    }
+    .adress-and-buy {
+        flex-wrap: wrap;
+        &__adress, &__buy {
+            width: 100%;
+        }
+        &__adress {
+            margin-top: 48px;
+        }
+    }
+    
 }

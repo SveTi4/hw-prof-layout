@@ -27,6 +27,7 @@ header .content {
     min-height: 75px;
     padding: 0 15px;
     position: relative;
+    transition: background 0.4s;
 }
 .nav-element:hover {
     background: $main-color;

@@ -145,8 +145,14 @@ li {
 .add-img {
     padding-right: 11px;
 }
+.catalog-item .item-img {
+    transition: all 0.6s;
+}
 .catalog-item:hover .item-img {
     filter: brightness(30%);
+}
+.catalog-item .add {
+    transition: all 0.3s;
 }
 .catalog-item:hover .add {
     display: flex;
@@ -189,6 +195,7 @@ li {
     background: $main-color;
     color: #fff;
     border: 1px solid transparent;
+    transition: all 0.6s;
 }
 .button:hover {
     background: #FFFFFF;
@@ -558,6 +565,14 @@ li {
         width: 100%;
     }
 }
+.item-link {
+    display: block;
+    width: 262px;
+    height: 100%;
+    &__img {
+        height: 100%;
+    }
+}
 .item-info {
     width: 100%;
     padding: 22px 31px;
@@ -606,9 +621,12 @@ li {
     justify-content: space-between;
 }
 .cart-btn {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
     @include text(14px, 49px, #000000);
-    padding: 0 40px;
     transition: color 1s, border 1s, transform 0.7s;
     &_hover:hover {
         color: $main-color2;
@@ -663,6 +681,7 @@ li {
 .buy {
     padding: 39px 44px 42px 44px;
     background: #F5F3F3;
+    box-sizing: border-box;
     &__prices {
         width: 100%;
     }
@@ -670,7 +689,7 @@ li {
         margin-top: 17px;
         display: block;
         width: 100%;
-        height: 50px;
+        min-height: 50px;
     }
 }
 
@@ -694,10 +713,14 @@ li {
     color: $main-color;
 }
 .buy-submit {
-    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
     font-weight: 300;
     font-size: 16px;
     text-align: center;
+    padding: 2%;
 }
 
 .reg-cont {
